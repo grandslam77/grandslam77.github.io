@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ANDRZEJ KOPEĆ ‘WIZYTÓWKA’",
+    "title": "ANDRZEJ KOPEĆ STRONA INFORMACYJNA",
     "section": "",
     "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
   },
@@ -16,14 +16,14 @@
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "ANDRZEJ KOPEĆ ‘WIZYTÓWKA’",
+    "title": "ANDRZEJ KOPEĆ STRONA INFORMACYJNA",
     "section": "Education",
     "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "ANDRZEJ KOPEĆ ‘WIZYTÓWKA’",
+    "title": "ANDRZEJ KOPEĆ STRONA INFORMACYJNA",
     "section": "Experience",
     "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
   },
@@ -38,5 +38,12 @@
       "Layout",
       "o mnie"
     ]
+  },
+  {
+    "objectID": "index.html#this-content-appears-above-the-formatted-about-page-content.",
+    "href": "index.html#this-content-appears-above-the-formatted-about-page-content.",
+    "title": "ANDRZEJ KOPEĆ STRONA INFORMACYJNA",
+    "section": "",
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
   }
 ]

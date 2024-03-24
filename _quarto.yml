@@ -3,12 +3,11 @@ project:
   output-dir: docs
 
 website:
-  title: "ANDRZEJ KOPEĆ WYBORY SAMORZĄDOWE 2024"
+  title: "ANDRZEJ KOPEĆ WYBORY SAMORZĄDOWE 2024       STRONA INFORMACYJNA"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - omnie.qmd
+      - text: " "
+        file: index.qmd
   sidebar:
     style: "docked"
     search: true

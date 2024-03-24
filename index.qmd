@@ -1,5 +1,5 @@
 ---
-title: "ANDRZEJ KOPEĆ 'WIZYTÓWKA'"
+title: "ANDRZEJ KOPEĆ STRONA INFORMACYJNA"
 about:
   id: hero-heading
   template: solana
@@ -8,7 +8,7 @@ about:
 ---
 
 
-### This content appears above the formatted about page content.
+## This content appears above the formatted about page content.
 
 
 
