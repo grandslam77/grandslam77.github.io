@@ -3,13 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "grandslam77.github.io"
+  title: "ANDRZEJ KOPEĆ WYBORY SAMORZĄDOWE 2024"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - omnie.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - index.qmd
+      - section: "Layout"
+        contents:
+          - omnie.qml
 format:
   html:
     theme: cosmo
