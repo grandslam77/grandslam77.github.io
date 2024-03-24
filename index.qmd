@@ -1,5 +1,5 @@
 ---
-title: "ANDRZEJ KOPEĆ STRONA INFORMACYJNA"
+title: ":-) "
 about:
   id: hero-heading
   template: solana
@@ -8,13 +8,12 @@ about:
 ---
 
 
-## This content appears above the formatted about page content.
-
+## Wybory Samorządowe 2024
 
 
 Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
 
-## Education
+## Kim jestem
 
 University of California, San Diego | San Diego, CA
 PhD in Mathematics | Sept 2011 - June 2015
@@ -22,9 +21,49 @@ PhD in Mathematics | Sept 2011 - June 2015
 Macalester College | St. Paul MA
 B.A in Economics | Sept 2007 - June 2011
 
-## Experience
+## Doświadczenie zawodowe
 
 Wengo Analytics | Head Data Scientist | April 2018 - present
 
 GeoScynce | Chief Analyst | Sept 2012 - April 2018
+
+## Doświadczenie zawodowe
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Sept 2012 - April 2018
+
+## Zainteresowania
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul MA
+B.A in Economics | Sept 2007 - June 2011
+
+## Edukacja
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul MA
+B.A in Economics | Sept 2007 - June 2011
+
+## Dotychczasowa działalność w Radzie Miasta
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul MA
+B.A in Economics | Sept 2007 - June 2011
+
+## Sprawy, które wymagają uwagi
+
+
+
+
+
+
+
+
 
