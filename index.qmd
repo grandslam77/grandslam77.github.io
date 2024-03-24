@@ -1,5 +1,5 @@
 ---
-title: "Finley Malloc"
+title: "ANDRZEJ KOPEĆ 'WIZYTÓWKA'"
 about:
   id: hero-heading
   template: solana

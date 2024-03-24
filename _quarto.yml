@@ -12,16 +12,10 @@ website:
   sidebar:
     style: "docked"
     search: true
-    contents:
-      - section: "Basics"
-        contents:
-          - index.qmd
-      - section: "Layout"
-        contents:
-          - omnie.qml
+    
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
 

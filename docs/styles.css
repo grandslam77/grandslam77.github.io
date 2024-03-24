@@ -1,1 +1,5 @@
 /* css styles */
+footer.footer .nav-footer, #quarto-header>nav {
+    padding-left: 13em;
+    padding-right: 1em;
+}
