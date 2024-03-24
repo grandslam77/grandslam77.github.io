@@ -14,3 +14,10 @@ footer.footer.nav-footer, #quarto-header>nav {
     border-left: 1px solid #0c76ff;
     color: #0c76ff !important;
 }
+
+
+.imageContainer {
+width:200px;
+height:200px;
+background-image: url(profile.jpg);
+}

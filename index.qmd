@@ -21,17 +21,13 @@ PhD in Mathematics | Sept 2011 - June 2015
 Macalester College | St. Paul MA
 B.A in Economics | Sept 2007 - June 2011
 
-## Doświadczenie zawodowe
-
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
 
 ## Doświadczenie zawodowe
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
+Elfin.pl | Head Data Scientist | April 2018 - present<BR>
+Bank BPH SA | Chief Analyst | Sept 2012 - April 2018<BR>
+Brenntag Polska Sp. z o.o. | Chief Analyst | Sept 2012 - April 2018<BR>
+Brenntag Polska Sp. z o.o. | Chief Analyst | Sept 2012 - April 2018
 
 ## Zainteresowania
 
@@ -41,13 +37,16 @@ PhD in Mathematics | Sept 2011 - June 2015
 Macalester College | St. Paul MA
 B.A in Economics | Sept 2007 - June 2011
 
-## Edukacja
+## Wykształcenie
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+Wyższa Szkoła Biznesu - National Louis University, Nowy Sącz<BR> 
+licencjat, zarządzanie biznesem | 1997 - 2001
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+Szkoła Główna Handlowa | Warszawa <BR> 
+magister, finanse i bankowość | 2004 - 2006
+
+<div class="imageContainer">Some Text</div>
+
 
 ## Dotychczasowa działalność w Radzie Miasta
 
