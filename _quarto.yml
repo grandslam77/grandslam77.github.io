@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "ANDRZEJ KOPEĆ WYBORY SAMORZĄDOWE 2024       STRONA INFORMACYJNA"
+  title: "WYBORY SAMORZĄDOWE 2024      ANDRZEJ KOPEĆ - KILKA SŁÓW O MNIE"
   navbar:
     left:
       - text: " "
