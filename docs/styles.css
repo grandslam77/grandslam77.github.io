@@ -6,6 +6,11 @@ footer.footer.nav-footer, #quarto-header>nav {
 
 
 .navbar {
-    background-color: #f2102fd9;
-    color: rgba(255, 255, 255, .7);
+    background-color: #0c76ff;
+    color: rgba(255, 255, 255, .9);
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid #0c76ff;
+    color: #0c76ff !important;
 }
