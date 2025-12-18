@@ -15,12 +15,12 @@
         /* --- ZMIENNE I RESET --- */
         :root {
             --primary-color: #0f172a; /* Ciemny granat */
-            --accent-color: #c5a059;  /* Zgaszone złoto */
+            --accent-color: #0f0f0e;  /* Zgaszone złoto */
             --bg-color: #f8f9fa;      /* Bardzo jasna szarość */
             --text-color: #334155;    /* Szary grafit */
             --white: #ffffff;
             --font-main: 'Lato', sans-serif;
-            --font-heading: 'Playfair Display', serif;
+            --font-heading: 'Lato', sans-serif;
             --transition: all 0.3s ease;
         }
 
@@ -245,9 +245,9 @@
 
         .service-card h3 { font-size: 1.4rem; margin-bottom: 15px; }
 
-        /* --- PROCESS SECTION (ZMIANA NA WERSJĘ JASNĄ) --- */
+        /* --- PROCESS SECTION (BEZ LINII) --- */
         .process-section {
-            background-color: var(--bg-color); /* Jasne tło */
+            background-color: var(--bg-color);
             color: var(--text-color);
             text-align: left;
         }
@@ -261,44 +261,33 @@
 
         .step-item {
             position: relative;
-            padding-top: 20px;
+            /* Usunąłem padding-top, który robił miejsce na linię */
+            padding-top: 0; 
         }
 
-        .step-item::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 40px;
-            height: 2px;
-            background-color: var(--accent-color);
-            transition: var(--transition);
-        }
-
-        .step-item:hover::before { width: 100%; }
+        /* USUNIĘTO KOD ODPOWIEDZIALNY ZA LINIE (::before i :hover) */
 
         .step-number {
             font-family: var(--font-heading);
             font-size: 3rem;
-            color: var(--primary-color); /* Numer teraz w kolorze granatowym */
-            opacity: 0.1; /* Bardziej subtelny na jasnym tle */
+            color: var(--primary-color);
+            opacity: 0.1;
             font-weight: 700;
             margin-bottom: 10px;
             line-height: 1;
         }
 
         .step-item h3 {
-            color: var(--primary-color); /* Nagłówek ciemny */
+            color: var(--primary-color);
             font-size: 1.3rem;
             margin-bottom: 15px;
         }
 
         .step-item p {
-            color: var(--text-color); /* Tekst ciemnoszary - czytelny */
+            color: var(--text-color);
             font-size: 0.95rem;
-            font-weight: 400; /* Zwiększona waga czcionki dla czytelności */
+            font-weight: 400;
         }
-
         /* --- CONTACT --- */
         .contact-grid {
             display: grid;
@@ -374,7 +363,7 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">AK <span>Wyceny</span></a>
+                <a href="#" class="logo">Andrzej Kopeć - RZECZOZNAWCA MAJĄTKOWY<span>     </span></a>
                 <ul class="nav-links">
                     <li><a href="#o-mnie">O mnie</a></li>
                     <li><a href="#oferta">Oferta</a></li>
@@ -389,7 +378,7 @@
     <!-- HERO -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Rzetelna wycena nieruchomości</h1>
+            <h1>WYCENA NIERUCHOMOŚCI</h1>
             <p>Profesjonalne operaty szacunkowe i ekspertyzy  na terenie województw opolskiego i śląskiego. <br>Uprawnienia Państwowe nr 8704.</p>
             <a href="#kontakt" class="btn btn-outline">Zapytaj o wycenę</a>
         </div>
@@ -412,13 +401,13 @@
 
     <ul style="margin-top: 15px; margin-bottom: 20px; list-style: none;">
         <li style="margin-bottom: 10px; padding-left: 15px; border-left: 2px solid var(--accent-color);">
-            <strong>Wykształcenie:</strong> Absolwent <strong>Szkoły Głównej Handlowej</strong> w Warszawie oraz <strong>WSB-NLU</strong> w Nowym Sączu.
+            <strong>Wykształcenie:</strong> Absolwent WSB-NLU w Nowym Sączu oraz Szkoły Głównej Handlowej w Warszawie.
         </li>
         <li style="margin-bottom: 10px; padding-left: 15px; border-left: 2px solid var(--accent-color);">
-            <strong>Specjalizacja:</strong> Ukończyłem studia podyplomowe z zakresu <em>Szacowania Nieruchomości</em> na <strong>AGH w Krakowie</strong> oraz kierunek <strong>"Data Science - algorytmy dla problemów typu Big Data"</strong>na <strong>Politechnice Warszawskiej</strong>.
+            <strong>Specjalizacja:</strong> Ukończyłem studia podyplomowe z zakresu <em>Szacowania Nieruchomości</em> na Akademi Górniczo-Hutniczej w Krakowie oraz kierunek <em>"Data Science – algorytmy, narzędzia i aplikacje dla problemów typu Big Data"</em> na Politechnice Warszawskiej.
         </li>
         <li style="margin-bottom: 10px; padding-left: 15px; border-left: 2px solid var(--accent-color);">
-            <strong>Doświadczenie:</strong> Ponad 20-letnią praktykę analityczną zdobywałem pracując dla liderów rynku, m.in. w <strong>Banku BPH SA</strong> oraz w działach analitycznych <strong>Petrochemii Blachownia</strong> i <strong>Brenntag Polska</strong>.
+            <strong>Doświadczenie:</strong> Ponad 20-letnią praktykę analityczną zdobywałem pracując jako analityk kredytowy w Banku BPH SA a także w działach analitycznych Petrochemii Blachownia i Brenntag Polska. 
         </li>
     </ul>
 
