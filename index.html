@@ -512,7 +512,12 @@
                         <input type="text" name="imie" placeholder="Imię i nazwisko *" required>
                         <input type="email" name="email" placeholder="Adres email *" required>
                         <input type="text" name="temat" placeholder="Rodzaj nieruchomości (np. mieszkanie) *" required>
-                        <input type="text" name="nr_kw" placeholder="Numer Księgi Wieczystej (opcjonalnie)">
+                        <input type="text" 
+                               name="nr_kw" 
+                               id="nr_kw_input" 
+                               placeholder="Nr Księgi Wieczystej (np. OP1K/12345678/9)" 
+                               maxlength="15" 
+                               style="text-transform: uppercase;">
                         <textarea name="wiadomosc" rows="5" placeholder="Treść wiadomości *" required></textarea>
                         
                         <button type="submit" id="submit-btn" class="btn">Wyślij wiadomość</button>
@@ -604,6 +609,27 @@
             });
         }
         form.addEventListener("submit", handleSubmit);
+    
+    // --- MASKA DLA NUMERU KW ---
+        const kwInput = document.getElementById('nr_kw_input');
+
+        kwInput.addEventListener('input', function (e) {
+            // 1. Pobierz wartość, usuń ukośniki i spacje, zamień na duże litery
+            let value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+            
+            // 2. Formatowanie (wstawianie ukośników)
+            // Format: XXXX/XXXXXXXX/X
+            if (value.length > 4) {
+                value = value.slice(0, 4) + '/' + value.slice(4);
+            }
+            if (value.length > 13) {
+                value = value.slice(0, 13) + '/' + value.slice(13);
+            }
+
+            // 3. Wstawienie sformatowanej wartości z powrotem do pola
+            e.target.value = value;
+        });
+    
     </script>
 </body>
 </html>
