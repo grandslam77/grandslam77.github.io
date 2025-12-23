@@ -81,6 +81,35 @@
             color: var(--white);
         }
 
+        /* Nowy styl dla przycisku "Zadzwoń" na tle zdjęcia */
+        .btn-white {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--white);
+            color: var(--primary-color); /* Granatowy tekst */
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 1px solid var(--white);
+            transition: var(--transition);
+            cursor: pointer;
+            text-decoration: none; /* Ważne dla linków */
+            font-weight: 700;
+        }
+
+        .btn-white:hover {
+            background-color: transparent;
+            color: var(--white); /* Po najechaniu robi się przezroczysty z białym tekstem */
+        }
+
+        /* Odstęp między przyciskami na telefonie */
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap; /* Żeby na małym ekranie spadły pod siebie */
+        }
+
         .btn-outline:hover {
             background-color: var(--white);
             color: var(--primary-color);
@@ -377,11 +406,18 @@
 
     <!-- HERO -->
     <section class="hero">
-        <div class="hero-content">
+       <div class="hero-content">
             <h1>WYCENA NIERUCHOMOŚCI</h1>
-            <p>Profesjonalne operaty szacunkowe i ekspertyzy  na terenie województw opolskiego i śląskiego. <br>Kędzierzyn-Koźle, Opole, Gliwice, Prudnik, Krapkowice, Zdzieszowice, Głogówek, Strzelce Opolskie, Kietrz, Racibórz, Głubczyce</p>
-             </p>
-            <a href="#kontakt" class="btn btn-outline">Zapytaj o wycenę</a>
+            <p>Profesjonalne operaty szacunkowe i ekspertyzy na terenie województw opolskiego i śląskiego. <br>Kędzierzyn-Koźle, Opole, Gliwice, Prudnik, Krapkowice, Zdzieszowice, Głogówek, Strzelce Opolskie, Kietrz, Racibórz, Głubczyce</p>
+            
+            <!-- Kontener na dwa przyciski -->
+            <div class="hero-buttons">
+                <!-- Przycisk 1: Zadzwoń (Biały) -->
+                <a href="tel:+48502619698" class="btn-white">Zadzwoń teraz</a>
+                
+                <!-- Przycisk 2: Napisz (Przezroczysty) -->
+                <a href="#kontakt" class="btn btn-outline">Zapytaj o wycenę</a>
+            </div>
         </div>
     </section>
 
@@ -489,7 +525,12 @@
                     <p>Masz pytania lub potrzebujesz wyceny? Skontaktuj się ze mną telefonicznie lub wypełnij formularz. Odpowiem w ciągu 24 godzin.</p>
                     <br>
                     <h4>Telefon</h4>
-                    <p>+48 502 619 698</p>
+                    <!-- Teraz numer jest klikalny -->
+                    <p>
+                        <a href="tel:+48502619698" style="text-decoration: none; color: inherit; font-weight: bold;">
+                            +48 502 619 698
+                        </a>
+                    </p>
                     
                     <h4>Email</h4>
                     <p>biuro@akwyceny.pl</p>
